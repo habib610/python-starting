@@ -1,10 +1,13 @@
-import math;
+""" helal adworld
+akdfkadfkasdf
+asdkfakdsf
+asdfasdf"""
 
-firstOne = 3;
-powerValue = firstOne ** firstOne
-
-print(powerValue)
-
-second = 4
-secondValue = math.pow(second, 3)
-print(secondValue)
+"""
+print("hello world")
+"""
+poem = """ helal adworld
+akdfkadfkasdf
+asdkfakdsf
+asdfasdf"""
+print(poem)
