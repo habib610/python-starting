@@ -12,3 +12,10 @@ print(three[3:7])  #included the starter index and excluded outer index; output 
 
 four = "0123456789"
 print(four[:-1]) #started from the last index; output = 012345678
+
+print(id(four)) #returns number where the string is stored 
+
+task = "Subscribe"
+print(task)
+#task[0] = "s"  #>>>>> gives an error says string are immutable cannot changes
+#print(task)
