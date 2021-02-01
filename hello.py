@@ -1,21 +1,7 @@
-#slice method
-#NOTE: starter is always inclusive and starter is always exclusive
+#string length len and str method
 
-one = "0123456789"
-print(one[3:]) #inclusive (included the index); output = 3456789
+name = "habibur rahman"
+print(len(name))
 
-two = "0123456789"
-print(two[:4]) #exclusive (doesn't included the index); output = 0123
-
-three = "0123456789"
-print(three[3:7])  #included the starter index and excluded outer index; output = 3456
-
-four = "0123456789"
-print(four[:-1]) #started from the last index; output = 012345678
-
-print(id(four)) #returns number where the string is stored 
-
-task = "Subscribe"
-print(task)
-#task[0] = "s"  #>>>>> gives an error says string are immutable cannot changes
-#print(task)
+print("your message" + str(len(name)) + "characters") #you cannot concate  string and number
+# to concate string and number use str methos which 
