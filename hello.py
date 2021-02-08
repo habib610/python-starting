@@ -1,13 +1,10 @@
-# combining list or concatenation List
+#Taking user input
 
-fav_lang = ["javascript", "python", "c"]
-fav_frame = ["react", "django"]
+print("whata's your name?")
+name = input()
+print("what's your favorite number?")
+num1 = input()
+print("another favorite number?")
+num2 = input()
 
-print(fav_lang + fav_frame)
-
-fav_frame = fav_frame +["angular"]
-print(fav_frame)
-
-
-fav_lang.append("java")
-print(fav_lang)
+print("Hey!", name, "your favorite sum is", num1 + num2)
