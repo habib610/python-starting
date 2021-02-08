@@ -1,12 +1,10 @@
-#printing pattern
-for i in range(1, 10):
-    for j in range(i):
-        print(j, end=" ")
-    print()
+#nested while loop
 
-print("------------------")
-
-for i in range(1, 10):
-    for j in range(i, 10):
+i = 0
+while i < 10:
+    j = 0
+    i += 1
+    while j < 10:
         print(j, end=" ")
+        j += 1
     print()
