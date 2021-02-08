@@ -1,9 +1,16 @@
-#for loop Even ODD
+#Sum and fun with range
 
-name = [4, 5, 6, 7, 6, 4]
+for i in range(10):
+    if i == 9:
+        print(i)
+    else:
+        print(i, end=":::")
 
-for i in range(20, 100, 2): 
-    print(i, end=" ")
-print()
-for i in range(19, 100, 2): 
-    print(i, end=" ")
+print(sum(range(10)))
+
+sum = 0
+
+for i in range(10):
+    sum = sum + i
+
+print(sum)
