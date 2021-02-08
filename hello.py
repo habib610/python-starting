@@ -1,13 +1,13 @@
-#Conditional
-print("whats your age?")
-age = int(input())
-name = True
+#for loop
+names = ["abbey", "jhonathon", "trait", "root", "steev"]
 
-if age > 20 or not name:
-    print("you are welcome")
+for name in names:
+    print(name, end=" ")
+print()
 
-elif age == 20 and name:
-    print("your age is not enough!")
+for i in range(10):
+    print("Iteration", i, end=" ")
+print()
 
-else: 
-    print("Invalid")
+for i in range(20, 30):
+    print("Iteration2", i, end=" ")
