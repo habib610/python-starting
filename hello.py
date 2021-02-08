@@ -1,16 +1,12 @@
 #Sum and fun with range
 
-for i in range(10):
-    if i == 9:
-        print(i)
-    else:
-        print(i, end=":::")
+# ages = list(range(1, 20))
+# print(ages)
 
-print(sum(range(10)))
+foods = ["chicken", "burger", "pizza", "sandwitch"]
 
-sum = 0
-
-for i in range(10):
-    sum = sum + i
-
-print(sum)
+for food in foods:
+    print(food , end=" ")
+print()
+for i in range(len(foods)):
+    print(i, foods[i], end=":::")
