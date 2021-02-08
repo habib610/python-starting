@@ -1,23 +1,19 @@
-my_fav_things = ["workingout", 356, 45, ["reading", 45]]
-print(my_fav_things)
+#deep copy
 
-copy = my_fav_things #we are not copying; we are making a new alias
-print(copy)
+# fav_food = ["banana", "chicken", ["burger", "pizza"]]
+# copy = fav_food.copy()
 
-copy[0] = "hangout"
-print(my_fav_things)
-print(copy)
+# copy[1] = "role"
 
-#to copy a list we can do like this
+# print(fav_food, "\n", copy)
 
-my_second_fav = ["programming", 344, 566, 67, ["sleeping"]]
-
-second_copy = my_fav_things[:] #By Slicing
-
-#or By using copy() function
-# second_copy = my_second_fav.copy()
-
-second_copy[0] = "Development"
+# shallow copy works by using copy method; But when you go for deep copy like nested list this wont work then import copy 
 
 
-print(my_second_fav, second_copy)
+import copy
+
+fav_food = ["banana", "chicken", ["burger", "pizza"]]
+c = copy.deepcopy(fav_food)
+c[2][0] = "role"
+
+print(fav_food, "\n", c)
