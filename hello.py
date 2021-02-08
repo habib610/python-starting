@@ -1,13 +1,9 @@
-#for loop
-names = ["abbey", "jhonathon", "trait", "root", "steev"]
+#for loop Even ODD
 
-for name in names:
-    print(name, end=" ")
+name = [4, 5, 6, 7, 6, 4]
+
+for i in range(20, 100, 2): 
+    print(i, end=" ")
 print()
-
-for i in range(10):
-    print("Iteration", i, end=" ")
-print()
-
-for i in range(20, 30):
-    print("Iteration2", i, end=" ")
+for i in range(19, 100, 2): 
+    print(i, end=" ")
