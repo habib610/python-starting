@@ -1,11 +1,16 @@
-#Function
+#Function with unlimited arguments
 
-def greet(name):
-    if name == "Mosharraff":
-        print("your name is Mosharraff")
-        return
-    print("Hello! Mr. " + name + "!")
+def greet(*people):
+    for person in people:
+        print(person, end=" ")
+    print()
 
-greet("Habib")
-greet("Mosharraff")
-greet("Nawaz")
+greet("habib", "rahman", "habibur")
+
+#Function unpacking reverse with unpacking
+
+def greet_unpacking(name, email, id):
+    print(name, email, id)
+
+person = ["habib", "habib@mail.com", 5]
+greet_unpacking(*person)
