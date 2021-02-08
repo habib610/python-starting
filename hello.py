@@ -1,12 +1,12 @@
-#Sum and fun with range
+#printing pattern
+for i in range(1, 10):
+    for j in range(i):
+        print(j, end=" ")
+    print()
 
-# ages = list(range(1, 20))
-# print(ages)
+print("------------------")
 
-foods = ["chicken", "burger", "pizza", "sandwitch"]
-
-for food in foods:
-    print(food , end=" ")
-print()
-for i in range(len(foods)):
-    print(i, foods[i], end=":::")
+for i in range(1, 10):
+    for j in range(i, 10):
+        print(j, end=" ")
+    print()
