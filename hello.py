@@ -1,11 +1,13 @@
-#logic and indentation
-
-print("Whats your age?")
+#Conditional
+print("whats your age?")
 age = int(input())
+name = True
 
-if age > 50: 
-    print("you are a big guy")
+if age > 20 or not name:
+    print("you are welcome")
 
-    print("This line is not  executing now!!!")
+elif age == 20 and name:
+    print("your age is not enough!")
 
-print("This line is executing now!!")
+else: 
+    print("Invalid")
